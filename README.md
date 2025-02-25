@@ -61,4 +61,4 @@ This dashboard visualizes data from the API:
 
 ## Acknowledgements
 
-- Designed and built by Michael Mendy © 2025
+_Designed and built by Michael Mendy © 2025_ with help from BigBalls. 
