@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Fed Graph: Federal Government Workforce Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2025-02-25 at 12 38 45 AM](https://github.com/user-attachments/assets/d7782988-a53f-4406-8e07-08671ce6a8b8)
 
-## Available Scripts
+## Age Distribution 
 
-In the project directory, you can run:
+![Screenshot 2025-02-25 at 12 38 51 AM](https://github.com/user-attachments/assets/6447e8df-0e9e-4b50-83d0-62134bc50418)
 
-### `npm start`
+## Salary Range 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2025-02-25 at 12 38 56 AM](https://github.com/user-attachments/assets/5e977a95-ebdd-4751-a60a-9786f9e73994)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Employment Tenure 
 
-### `npm test`
+![Screenshot 2025-02-25 at 12 39 02 AM](https://github.com/user-attachments/assets/5ed7eeaf-7655-472c-93c6-12567cdc7d35)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Data Visualizations
 
-### `npm run build`
+- **Age Distribution**: Breakdown of federal employees by age group
+- **Salary Ranges**: Distribution of employees across salary bands
+- **Telework Eligibility**: Percentage of workforce eligible for telework
+- **Employee Tenure**: Length of service across the federal workforce
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Metrics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Total Federal Employees
+- Annual Salary Budget
+- Average Salary
+- DC-Based Employees
+- Average Employee Age
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+```bash
+git clone https://github.com/DepartmentOfGovernmentEfficiency/fed-graph.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd fed-graph
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+The dashboard automatically displays the federal workforce data when loaded. Users can:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. View the overview dashboard with summary statistics
+2. Click on tabs to explore detailed breakdowns by age, salary, and tenure
+3. Hover over data points to see exact values and percentages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Data Source
 
-### Code Splitting
+This dashboard visualizes data from the Federal Government Workforce API:
+`doge.gov/api/kpis/Federal_Government`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+utions are welcome! Please feel free to submit a Pull Request.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Designed and built by Michael Mendy © 2025
