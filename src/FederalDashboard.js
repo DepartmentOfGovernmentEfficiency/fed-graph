@@ -197,7 +197,7 @@ function FederalDashboard() {
   const renderLineGraph = (data, title, color = '#E0162B') => {
     const maxValue = Math.max(...data.map(item => item.value));
     const chartHeight = 150;
-    const scaleY = chartHeight / maxValue; // Scale to 150px height max
+    const scaleY = chartHeight / maxValue; 
     
     return (
       <div className="graph-container">
