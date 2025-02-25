@@ -5,7 +5,6 @@ function FederalDashboard() {
   const [activeTab, setActiveTab] = useState('overview');
   const [activeDataPoint, setActiveDataPoint] = useState(null);
   
-  // Federal Government KPI data
   const fedData = {
     "aggregated": {
       "age_20_24_count": 52292,
@@ -87,9 +86,8 @@ function FederalDashboard() {
     return `$${amount}`;
   };
 
-  // Calculate average age (approximate based on age ranges)
   const calculateAverageAge = () => {
-    // Mid-point of each age range
+
     const ageMidpoints = {
       'Under 20': 19,
       '20-24': 22,
@@ -101,7 +99,7 @@ function FederalDashboard() {
       '50-54': 52,
       '55-59': 57,
       '60-64': 62,
-      '65+': 70 // Estimate for 65+
+      '65+': 70 
     };
     
     let totalWeightedAge = 0;
@@ -115,10 +113,8 @@ function FederalDashboard() {
     return (totalWeightedAge / totalEmployees).toFixed(1);
   };
 
-  // Calculate average salary
   const averageSalary = fedData.aggregated.salary_total / fedData.aggregated.employee_count;
 
-  // Prepare age data for visualization
   const ageData = [
     { label: 'Under 20', value: fedData.aggregated.age_under_20_count },
     { label: '20-24', value: fedData.aggregated.age_20_24_count },
@@ -133,10 +129,8 @@ function FederalDashboard() {
     { label: '65+', value: fedData.aggregated.age_65_plus_count }
   ];
 
-  // Get average age
   const averageAge = calculateAverageAge();
 
-  // Prepare simplified salary data
   const salaryData = [
     { label: 'Under $50K', value: fedData.aggregated.salary_less_20k_count + 
                                    fedData.aggregated.salary_20k_29k_count + 
@@ -169,7 +163,6 @@ function FederalDashboard() {
                               fedData.aggregated.salary_500k_plus_count }
   ];
 
-  // Prepare tenure data
   const tenureData = [
     { label: 'Less than 1 year', value: fedData.aggregated.tenure_less_than_1_count },
     { label: '1-2 years', value: fedData.aggregated.tenure_1_2_count },
@@ -183,14 +176,12 @@ function FederalDashboard() {
     { label: '35+ years', value: fedData.aggregated.tenure_35_plus_count }
   ];
 
-  // Prepare telework data
   const teleworkData = [
     { label: 'Eligible', value: fedData.aggregated.telework_eligible_count },
     { label: 'Not Eligible', value: fedData.aggregated.not_telework_eligible_count },
     { label: 'Unspecified', value: fedData.aggregated.telework_unspecified_count }
   ];
 
-  // Function to handle point hovering
   const handlePointHover = (data, index) => {
     setActiveDataPoint({
       data,
@@ -199,12 +190,10 @@ function FederalDashboard() {
     });
   };
 
-  // Function to handle mouse leave
   const handleMouseLeave = () => {
     setActiveDataPoint(null);
   };
 
-  // Function to render a pure line graph
   const renderLineGraph = (data, title, color = '#E0162B') => {
     const maxValue = Math.max(...data.map(item => item.value));
     const chartHeight = 150;
