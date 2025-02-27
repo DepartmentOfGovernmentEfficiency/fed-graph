@@ -57,7 +57,7 @@ The dashboard automatically displays the federal workforce data when loaded. Use
 ## Data Source
 
 This dashboard visualizes data from the API:
-`doge.gov/api/kpis/Federal_Government`
+`doge.gov`
 
 ## Acknowledgements
 
