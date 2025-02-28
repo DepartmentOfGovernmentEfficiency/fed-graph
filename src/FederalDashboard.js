@@ -204,6 +204,53 @@ const OFFICE_DATA = {
     office_id: "c10a38c7-f16c-45c7-9089-5ef972b47dd9",
     office_name: "Securities And Exchange Commission"
   },
+  ATF: {
+    aggregated: {
+      age_20_24_count: 83, age_25_29_count: 258, age_30_34_count: 556, age_35_39_count: 868,
+      age_40_44_count: 945, age_45_49_count: 909, age_50_54_count: 847, age_55_59_count: 554,
+      age_60_64_count: 227, age_65_plus_count: 102, age_under_20_count: 0, annuity_total: 252679939.3,
+      dc_employee_count: 844, employee_count: 5349, not_telework_eligible_count: 5340,
+      salary_100k_109k_count: 260, salary_110k_119k_count: 607, salary_120k_129k_count: 793,
+      salary_130k_139k_count: 813, salary_140k_149k_count: 535, salary_150k_159k_count: 419,
+      salary_160k_169k_count: 194, salary_170k_179k_count: 109, salary_180k_189k_count: 124,
+      salary_190k_199k_count: 137, salary_200k_219k_count: 15, salary_20k_29k_count: 0,
+      salary_220k_239k_count: 16, salary_240k_259k_count: 0, salary_260k_279k_count: 0,
+      salary_280k_299k_count: 0, salary_300k_349k_count: 0, salary_30k_39k_count: 0,
+      salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 48,
+      salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 192,
+      salary_60k_69k_count: 263, salary_70k_79k_count: 348, salary_80k_89k_count: 299,
+      salary_90k_99k_count: 177, salary_less_20k_count: 0, salary_total: 122223095,
+      salary_unspecified_count: 0, telework_eligible_count: 0, telework_unspecified_count: 0,
+      tenure_10_14_count: 720, tenure_15_19_count: 926, tenure_1_2_count: 418,
+      tenure_20_24_count: 709, tenure_25_29_count: 356, tenure_30_34_count: 267,
+      tenure_35_plus_count: 196, tenure_3_4_count: 364, tenure_5_9_count: 1009,
+      tenure_less_than_1_count: 384
+    },
+    children_count: 10,
+    detailed: {
+      age_20_24_count: 83, age_25_29_count: 258, age_30_34_count: 556, age_35_39_count: 868,
+      age_40_44_count: 945, age_45_49_count: 909, age_50_54_count: 847, age_55_59_count: 554,
+      age_60_64_count: 227, age_65_plus_count: 102, age_under_20_count: 0, annuity_total: 252679939.3,
+      dc_employee_count: 844, employee_count: 5349, not_telework_eligible_count: 5340,
+      salary_100k_109k_count: 260, salary_110k_119k_count: 607, salary_120k_129k_count: 793,
+      salary_130k_139k_count: 813, salary_140k_149k_count: 535, salary_150k_159k_count: 419,
+      salary_160k_169k_count: 194, salary_170k_179k_count: 109, salary_180k_189k_count: 124,
+      salary_190k_199k_count: 137, salary_200k_219k_count: 15, salary_20k_29k_count: 0,
+      salary_220k_239k_count: 16, salary_240k_259k_count: 0, salary_260k_279k_count: 0,
+      salary_280k_299k_count: 0, salary_300k_349k_count: 0, salary_30k_39k_count: 0,
+      salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 48,
+      salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 192,
+      salary_60k_69k_count: 263, salary_70k_79k_count: 348, salary_80k_89k_count: 299,
+      salary_90k_99k_count: 177, salary_less_20k_count: 0, salary_total: 122223095,
+      salary_unspecified_count: 0, telework_eligible_count: 0, telework_unspecified_count: 0,
+      tenure_10_14_count: 720, tenure_15_19_count: 926, tenure_1_2_count: 418,
+      tenure_20_24_count: 709, tenure_25_29_count: 356, tenure_30_34_count: 267,
+      tenure_35_plus_count: 196, tenure_3_4_count: 364, tenure_5_9_count: 1009,
+      tenure_less_than_1_count: 384
+    },
+    office_id: "50c805c2-13b9-4a4c-bf23-74f2b6d59b6c",
+    office_name: "Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF)"
+  },
   SBA: {
     aggregated: {
       age_20_24_count: 28, age_25_29_count: 332, age_30_34_count: 548, age_35_39_count: 739,
