@@ -27,9 +27,9 @@
 * DoD
 * SEC
 * SBA
+* DOJ
 * Department of Education
 * Department of Energy
-* Department of Justice
 * U.S. State Department
 
 ## Data Visualizations
