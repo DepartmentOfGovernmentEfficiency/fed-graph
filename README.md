@@ -90,3 +90,6 @@ This dashboard visualizes data from the API:
 ## Acknowledgements
 
 _Designed and built by Michael Mendy © 2025_ with help from _BigBalls_. 
+
+![482069154_9325032744202705_7321691061735202761_n](https://github.com/user-attachments/assets/d178a26d-d167-4cd9-826d-4468344adf1d)
+
