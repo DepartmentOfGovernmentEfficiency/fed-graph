@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/10946ebe-1441-417d-abfc-b73faacf4a9f
 * OMB
 * NTSB
 * DOT
-* ATF - Bureau of Alcohol, Tobacco, Firearms, and Explosives ((Defined As A Child Agency of the DOJ)
+* ATF - Bureau of Alcohol, Tobacco, Firearms, and Explosives (Defined As A Child Agency of the DOJ)
 * DEA (Defined As A Child Agency of the DOJ)
 * FBI (Defined As A Child Agency of the DOJ) 
 * DoD
