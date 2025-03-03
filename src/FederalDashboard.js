@@ -29,6 +29,53 @@ const OFFICE_DATA = {
     office_id: "Federal_Government",
     office_name: "Federal Government"
   },
+  ICE: {
+    aggregated: {
+        age_20_24_count: 76, age_25_29_count: 725, age_30_34_count: 1789, age_35_39_count: 3037,
+        age_40_44_count: 4078, age_45_49_count: 4146, age_50_54_count: 3772, age_55_59_count: 1594,
+        age_60_64_count: 668, age_65_plus_count: 368, age_under_20_count: 0, annuity_total: 767613982.1,
+        dc_employee_count: 2833, employee_count: 20254, not_telework_eligible_count: 15155,
+        salary_100k_109k_count: 2658, salary_110k_119k_count: 2716, salary_120k_129k_count: 2510,
+        salary_130k_139k_count: 2105, salary_140k_149k_count: 2036, salary_150k_159k_count: 1593,
+        salary_160k_169k_count: 783, salary_170k_179k_count: 576, salary_180k_189k_count: 463,
+        salary_190k_199k_count: 433, salary_200k_219k_count: 35, salary_20k_29k_count: 0,
+        salary_220k_239k_count: 32, salary_240k_259k_count: 8, salary_260k_279k_count: 5,
+        salary_280k_299k_count: 3, salary_300k_349k_count: 1, salary_30k_39k_count: 38,
+        salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 140,
+        salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 475,
+        salary_60k_69k_count: 818, salary_70k_79k_count: 917, salary_80k_89k_count: 814,
+        salary_90k_99k_count: 1090, salary_less_20k_count: 0, salary_total: 429827701,
+        salary_unspecified_count: 5, telework_eligible_count: 5099, telework_unspecified_count: 0,
+        tenure_10_14_count: 3095, tenure_15_19_count: 4551, tenure_1_2_count: 904,
+        tenure_20_24_count: 3618, tenure_25_29_count: 1697, tenure_30_34_count: 626,
+        tenure_35_plus_count: 345, tenure_3_4_count: 1752, tenure_5_9_count: 2927,
+        tenure_less_than_1_count: 739
+    },
+    children_count: 155,
+    detailed: {
+        age_20_24_count: 76, age_25_29_count: 725, age_30_34_count: 1789, age_35_39_count: 3037,
+        age_40_44_count: 4078, age_45_49_count: 4146, age_50_54_count: 3772, age_55_59_count: 1594,
+        age_60_64_count: 668, age_65_plus_count: 368, age_under_20_count: 0, annuity_total: 767613982.1,
+        dc_employee_count: 2833, employee_count: 20254, not_telework_eligible_count: 15155,
+        salary_100k_109k_count: 2658, salary_110k_119k_count: 2716, salary_120k_129k_count: 2510,
+        salary_130k_139k_count: 2105, salary_140k_149k_count: 2036, salary_150k_159k_count: 1593,
+        salary_160k_169k_count: 783, salary_170k_179k_count: 576, salary_180k_189k_count: 463,
+        salary_190k_199k_count: 433, salary_200k_219k_count: 35, salary_20k_29k_count: 0,
+        salary_220k_239k_count: 32, salary_240k_259k_count: 8, salary_260k_279k_count: 5,
+        salary_280k_299k_count: 3, salary_300k_349k_count: 1, salary_30k_39k_count: 38,
+        salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 140,
+        salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 475,
+        salary_60k_69k_count: 818, salary_70k_79k_count: 917, salary_80k_89k_count: 814,
+        salary_90k_99k_count: 1090, salary_less_20k_count: 0, salary_total: 429827701,
+        salary_unspecified_count: 5, telework_eligible_count: 5099, telework_unspecified_count: 0,
+        tenure_10_14_count: 3095, tenure_15_19_count: 4551, tenure_1_2_count: 904,
+        tenure_20_24_count: 3618, tenure_25_29_count: 1697, tenure_30_34_count: 626,
+        tenure_35_plus_count: 345, tenure_3_4_count: 1752, tenure_5_9_count: 2927,
+        tenure_less_than_1_count: 739
+    },
+    office_id: "b1f73599-62fc-4ecf-8a60-8b5cf88ab8a0",
+    office_name: "Immigration and Customs Enforcement (ICE)"
+},
   OMB: {
     aggregated: {
       age_20_24_count: 16, age_25_29_count: 56, age_30_34_count: 157, age_35_39_count: 173,
