@@ -873,14 +873,19 @@ function FederalDashboard() {
   const handlePointHover = (data, index) => setActiveDataPoint({
     data,
     index,
-    percentage: aggregated.employee_count > 0 ? ((data[index].value / aggregated.employee_count) * 100).toFixed(1) : '0'
+    percentage: aggregated.employee_count > 0 ? (data[index].value / aggregated.employee_count * 100).toFixed(1) : '0'
   });
 
   const renderLineGraph = (data, title, color = '#E0162B') => {
-    const maxValue = Math.max(...data.map(item => item.value)) || 1;
+    const totalEmployees = aggregated.employee_count || 1; 
+    const normalizedData = data.map(item => ({
+      label: item.label,
+      value: (item.value / totalEmployees) * 100 
+    }));
+    const maxValue = Math.max(...normalizedData.map(item => item.value)) || 1;
     const chartHeight = 150;
     const scaleY = chartHeight / maxValue;
-
+  
     return (
       <div className="graph-container">
         <h3 className="graph-title">{title}</h3>
@@ -895,7 +900,7 @@ function FederalDashboard() {
             {[0, 25, 50, 75, 100].map(pct => <div key={pct} className="grid-line" style={{ bottom: `${pct}%` }} />)}
           </div>
           <div className="line-points">
-            {data.map((item, index) => {
+            {normalizedData.map((item, index) => {
               const height = item.value * scaleY;
               const pointY = chartHeight - height;
               return (
@@ -903,10 +908,10 @@ function FederalDashboard() {
                   {index > 0 && (
                     <>
                       <svg className="area-fill" style={{ position: 'absolute', top: 0, left: '-50%', width: '100%', height: chartHeight, zIndex: 1 }}>
-                        <polygon points={`0,${chartHeight} 0,${chartHeight - (data[index-1].value * scaleY)} 100,${pointY} 100,${chartHeight}`} fill={`${color}15`} />
+                        <polygon points={`0,${chartHeight} 0,${chartHeight - (normalizedData[index-1].value * scaleY)} 100,${pointY} 100,${chartHeight}`} fill={`${color}15`} />
                       </svg>
                       <svg className="line-connector" style={{ position: 'absolute', top: 0, left: '-50%', width: '100%', height: chartHeight, zIndex: 2 }}>
-                        <line x1="0%" y1={chartHeight - (data[index-1].value * scaleY)} x2="100%" y2={pointY} stroke={color} strokeWidth="2.5" />
+                        <line x1="0%" y1={chartHeight - (normalizedData[index-1].value * scaleY)} x2="100%" y2={pointY} stroke={color} strokeWidth="2.5" />
                       </svg>
                     </>
                   )}
@@ -922,9 +927,9 @@ function FederalDashboard() {
             })}
           </div>
           <div className="y-axis">
-            <div className="y-label" style={{ bottom: '0%' }}>0</div>
-            <div className="y-label" style={{ bottom: '50%' }}>{formatNumber(maxValue / 2)}</div>
-            <div className="y-label" style={{ bottom: '100%' }}>{formatNumber(maxValue)}</div>
+            <div className="y-label" style={{ bottom: '0%' }}>0%</div>
+            <div className="y-label" style={{ bottom: '50%' }}>{(maxValue / 2).toFixed(1)}%</div>
+            <div className="y-label" style={{ bottom: '100%' }}>{maxValue.toFixed(1)}%</div>
           </div>
         </div>
       </div>
