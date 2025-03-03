@@ -742,6 +742,53 @@ const OFFICE_DATA = {
     office_id: "cd0c0efe-e526-4982-aa82-e51fb5c720ba",
     office_name: "Department of Housing and Urban Development"
   },
+  USSS: {
+    aggregated: {
+        age_20_24_count: 463, age_25_29_count: 1076, age_30_34_count: 1080, age_35_39_count: 1097,
+        age_40_44_count: 1087, age_45_49_count: 1133, age_50_54_count: 995, age_55_59_count: 564,
+        age_60_64_count: 256, age_65_plus_count: 130, age_under_20_count: 0, annuity_total: 927982010.9,
+        dc_employee_count: 4999, employee_count: 7888, not_telework_eligible_count: 0,
+        salary_100k_109k_count: 441, salary_110k_119k_count: 480, salary_120k_129k_count: 1369,
+        salary_130k_139k_count: 834, salary_140k_149k_count: 669, salary_150k_159k_count: 712,
+        salary_160k_169k_count: 331, salary_170k_179k_count: 120, salary_180k_189k_count: 203,
+        salary_190k_199k_count: 164, salary_200k_219k_count: 22, salary_20k_29k_count: 0,
+        salary_220k_239k_count: 8, salary_240k_259k_count: 1, salary_260k_279k_count: 1,
+        salary_280k_299k_count: 0, salary_300k_349k_count: 0, salary_30k_39k_count: 65,
+        salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 83,
+        salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 103,
+        salary_60k_69k_count: 268, salary_70k_79k_count: 506, salary_80k_89k_count: 786,
+        salary_90k_99k_count: 720, salary_less_20k_count: 0, salary_total: 618157161,
+        salary_unspecified_count: 2, telework_eligible_count: 7888, telework_unspecified_count: 0,
+        tenure_10_14_count: 753, tenure_15_19_count: 1006, tenure_1_2_count: 1039,
+        tenure_20_24_count: 1181, tenure_25_29_count: 432, tenure_30_34_count: 230,
+        tenure_35_plus_count: 207, tenure_3_4_count: 691, tenure_5_9_count: 1765,
+        tenure_less_than_1_count: 584
+    },
+    children_count: 18,
+    detailed: {
+        age_20_24_count: 463, age_25_29_count: 1076, age_30_34_count: 1080, age_35_39_count: 1097,
+        age_40_44_count: 1087, age_45_49_count: 1133, age_50_54_count: 995, age_55_59_count: 564,
+        age_60_64_count: 256, age_65_plus_count: 130, age_under_20_count: 0, annuity_total: 927982010.9,
+        dc_employee_count: 4999, employee_count: 7888, not_telework_eligible_count: 0,
+        salary_100k_109k_count: 441, salary_110k_119k_count: 480, salary_120k_129k_count: 1369,
+        salary_130k_139k_count: 834, salary_140k_149k_count: 669, salary_150k_159k_count: 712,
+        salary_160k_169k_count: 331, salary_170k_179k_count: 120, salary_180k_189k_count: 203,
+        salary_190k_199k_count: 164, salary_200k_219k_count: 22, salary_20k_29k_count: 0,
+        salary_220k_239k_count: 8, salary_240k_259k_count: 1, salary_260k_279k_count: 1,
+        salary_280k_299k_count: 0, salary_300k_349k_count: 0, salary_30k_39k_count: 65,
+        salary_350k_399k_count: 0, salary_400k_449k_count: 0, salary_40k_49k_count: 83,
+        salary_450k_499k_count: 0, salary_500k_plus_count: 0, salary_50k_59k_count: 103,
+        salary_60k_69k_count: 268, salary_70k_79k_count: 506, salary_80k_89k_count: 786,
+        salary_90k_99k_count: 720, salary_less_20k_count: 0, salary_total: 618157161,
+        salary_unspecified_count: 2, telework_eligible_count: 7888, telework_unspecified_count: 0,
+        tenure_10_14_count: 753, tenure_15_19_count: 1006, tenure_1_2_count: 1039,
+        tenure_20_24_count: 1181, tenure_25_29_count: 432, tenure_30_34_count: 230,
+        tenure_35_plus_count: 207, tenure_3_4_count: 691, tenure_5_9_count: 1765,
+        tenure_less_than_1_count: 584
+    },
+    office_id: "394528c6-e739-40d6-9709-8855dc6ac02e",
+    office_name: "U.S. Secret Service (USSS)"
+},
   State: {
     aggregated: {
       age_20_24_count: 269, age_25_29_count: 708, age_30_34_count: 1242, age_35_39_count: 1864,
