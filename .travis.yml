@@ -1,0 +1,14 @@
+language: minimal
+
+services:
+  - docker
+
+env:
+  global:
+    - IMAGE_NAME=montanamendy/blacksmith-travis
+
+before_script:
+  - chmod +x blacksmith.sh
+
+script:
+  - ./blacksmith.sh
